@@ -10,12 +10,8 @@ int main(int argc, char const *argv[])
     scanf(" %c", &operacao);
 
     for (int l = 0; l < 12; l++)
-    {
         for (int c = 0; c < 12; c++)
-        {
             scanf("%lf", &matriz[l][c]);
-        }
-    }
 
     for (int c = 0; c < 12; c++)
         soma += matriz[linha][c];
